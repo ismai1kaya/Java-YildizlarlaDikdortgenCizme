@@ -1,4 +1,4 @@
-//İSMAİL KAYA 202013171071
+
 import java.util.Scanner;
 
 class DikdortgenOdevi{
