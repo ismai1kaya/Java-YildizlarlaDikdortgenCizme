@@ -26,14 +26,16 @@ public class DikdortgenCizme {
 
         Scanner degerNesnesi = new Scanner(System.in);
         DikdortgenOdevi dikdörtgen = new DikdortgenOdevi();
+        
         System.out.print("Üçgenin kısa kenarını giriniz:");
-        int KKenar= degerNesnesi.nextInt();
+            int KKenar= degerNesnesi.nextInt();
+        
         System.out.println("");
-        System.out.print("Üçgenin uzun kenarını giriniz:");
-        int UKenar = degerNesnesi.nextInt();
+            System.out.print("Üçgenin uzun kenarını giriniz:");
+                int UKenar = degerNesnesi.nextInt();
 
         System.out.println("");
-        dikdörtgen.DiktörtgenCizim(KKenar, UKenar);
+            dikdörtgen.DiktörtgenCizim(KKenar, UKenar);
     }
 
 }
